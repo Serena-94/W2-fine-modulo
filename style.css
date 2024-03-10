@@ -1,0 +1,238 @@
+#navbar {
+    margin-top: 0;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px rgba(101, 98, 98, 0.451);
+}
+
+nav img {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 5%;
+}
+
+.nav-btn {
+    position: absolute;
+    right: 15%;
+}
+
+.nav-btn button {
+    border-color: transparent;
+    background-color: white;
+    color: grey;
+}
+
+#resume {
+    border: 1px solid grey;
+    color: black;
+    padding: 6px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+#T {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+main {
+    background-color: whitesmoke;
+    padding-top: 40px;
+    display: flex;
+}
+
+#top-link {
+    border-bottom: 1px solid rgb(80, 73, 73);
+    width: 80%;
+
+}
+
+#top-link ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+#top-link a {
+    color: black;
+}
+
+#following {
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.section {
+    margin-top: 35px;
+    display: flex;
+    position: relative;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.source {
+    display: flex;
+    flex-direction: row;
+}
+
+.source-img {
+    width: 5%;
+    height: auto;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.article-text {
+    color: grey;
+    margin: 0;
+}
+
+.img-article {
+    width: 30%;
+    height: auto;
+}
+
+.article-list button{
+    border: none;
+    color:grey;
+    font-size: small;
+    margin-right: 5px;
+}
+
+
+.article-list button:first-child{
+    list-style-type: none;
+}
+
+.article-list, ul{
+    padding-inline-start:0;
+}
+
+.button-left{
+    position: absolute;
+    top: 82%;
+    left: 45%;
+}
+
+.button-left button{
+    border:none
+}
+.button-left button:first-child{
+    color: grey;
+}
+
+
+.img-article img{
+    width:100%;
+    height: 85%;
+}
+
+.bgc-grey{
+    background-color: rgb(221, 213, 213);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+#left{
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+.aside-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    border-bottom: 1px solid gray;
+}
+
+#icon-topaside{
+    font-size:x-large;
+}
+
+#btn-twit, button{
+    border: 1px solid rgb(94, 90, 90);
+    border-color: rgb(151, 147, 147);
+    border-radius: 15px;
+    padding: 6px 10px;
+    margin-bottom: 6%;
+}
+
+#link-aside-top{
+    font-size: small;
+    color:gray;
+    margin-bottom: 30px;
+}
+
+.aside-center{
+    margin-left: 30px;
+}
+
+#btn-wrap{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+#btn-wrap button{
+    margin-right: 10px;
+    background-color: rgba(216, 212, 212, 0.73);
+    border: transparent;
+}
+
+.aside-bottom{
+    margin-left: 30px;
+    position: absolute;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+}
+
+.final img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img-container{
+    width:10%
+}
+
+.text-img{
+    margin-left: 30px;
+    font-size: small;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.btn-follow{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+}
+
+.btn-follow button{
+    margin-bottom: 40px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
